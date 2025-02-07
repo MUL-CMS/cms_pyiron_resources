@@ -1,0 +1,14 @@
+queue_type: REMOTE
+queue_primary: p11
+ssh_host: hpc-login1.unileoben.ac.at
+ssh_username: pXXXXXXX
+known_hosts: /home/{USER}/.ssh/known_hosts
+ssh_key: /home/{USER}/.ssh/id_rsa_pyiron-mul-hpc_new
+ssh_remote_config_dir: /mulfs/home/pXXXXXXX/pyiron_resources/queues/
+ssh_remote_path: /mulfs/home/pXXXXXXX/calc/pyiron/
+ssh_local_path: /mnt/fileserver/{USER}/
+ssh_continous_connection: True
+queues:
+    p11: {cores_max: 96, cores_min: 1, run_time_max: 604800}
+    p12: {cores_max: 96, cores_min: 1, run_time_max: 604800}
+    p2: {cores_max: 16, cores_min: 1, run_time_max: 604800}

@@ -1,0 +1,5 @@
+cluster_primary: mul-hpc_2023
+cluster: {
+  mul-hpc_2023: mul-hpc_2023.yaml,
+  mul-hpc_81: mul-hpc_81.yaml,
+}

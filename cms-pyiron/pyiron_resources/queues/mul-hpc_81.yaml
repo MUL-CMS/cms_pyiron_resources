@@ -1,0 +1,14 @@
+queue_type: REMOTE
+queue_primary: E5-1650
+ssh_host: mul-hpc-81a.unileoben.ac.at
+ssh_username: {USER}
+known_hosts: /home/{USER}/.ssh/known_hosts
+ssh_key: /home/{USER}/.ssh/id_rsa_pyiron-mul-hpc_81
+ssh_remote_config_dir: /home/{USER}/pyiron_resources/queues/
+ssh_remote_path: /calc/{USER}/pyiron/
+ssh_local_path: /mnt/fileserver/{USER}/
+ssh_continous_connection: True
+queues:
+    E5-1650: {cores_max: 6, cores_min: 1, run_time_max: 604800}
+    E5-2690: {cores_max: 28, cores_min: 1, run_time_max: 604800}
+    E5-2698: {cores_max: 40, cores_min: 1, run_time_max: 604800}
