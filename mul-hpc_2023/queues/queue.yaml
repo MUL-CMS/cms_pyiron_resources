@@ -1,0 +1,6 @@
+queue_type: SLURM
+queue_primary: p11
+queues:
+    p11: {cores_max: 96, cores_min: 1, run_time_max: 604800, script: p11.sh}
+    p12: {cores_max: 96, cores_min: 1, run_time_max: 604800, script: p12.sh}
+    p2: {cores_max: 16, cores_min: 1, run_time_max: 604800, script: p2.sh}
