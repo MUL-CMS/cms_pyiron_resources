@@ -1,0 +1,6 @@
+queue_type: SLURM
+queue_primary: E5-1650
+queues:
+    E5-1650: {cores_max: 6, cores_min: 1, run_time_max: 604800, script: E1650.sh}
+    E5-2690: {cores_max: 28, cores_min: 1, run_time_max: 604800, script: E2690.sh}
+    E5-2698: {cores_max: 40, cores_min: 1, run_time_max: 604800, script: E2698.sh}
